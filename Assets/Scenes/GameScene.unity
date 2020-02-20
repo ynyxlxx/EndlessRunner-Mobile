@@ -1078,6 +1078,10 @@ PrefabInstance:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 910483310, guid: 2b18e7544f01f2849bc01aea0d8ee876, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2961252264439580577, guid: 2b18e7544f01f2849bc01aea0d8ee876,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1137,6 +1141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpaceShip
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073725231644286801, guid: 2b18e7544f01f2849bc01aea0d8ee876,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b18e7544f01f2849bc01aea0d8ee876, type: 3}

@@ -36,6 +36,7 @@ public class Player : MonoBehaviour {
 
         if (OnDeath != null && isGameOver){
             SaveHighScore();
+            AudioManager.Instance.Play("PlayerDeath");
             OnDeath();
             OnDeath -= ShowDeathParticle;
             Destroy(gameObject);

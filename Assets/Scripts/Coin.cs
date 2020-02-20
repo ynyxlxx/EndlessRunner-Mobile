@@ -28,6 +28,7 @@ public class Coin : MonoBehaviour {
         
         if (other.CompareTag ("Player")) {
             //do somthing
+            AudioManager.Instance.Play("PickUp");
             OnPickUpCoin();
             Destroy (gameObject);
         }
